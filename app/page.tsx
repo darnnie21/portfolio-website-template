@@ -1,5 +1,8 @@
-import HeroSection from '@/components/HeroSection';
-import NavBar from '@/components/NavBar';
+import {
+  HeroSection,
+  NavBar,
+  AboutSection,
+} from '@/components';
 
 export default function Home() {
   return (
@@ -7,6 +10,7 @@ export default function Home() {
       <NavBar />
       <div className='container mt-24 mx-auto py-4 px-12'>
         <HeroSection />
+        <AboutSection />
       </div>
     </main>
   );
