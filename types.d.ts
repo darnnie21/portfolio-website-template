@@ -10,3 +10,13 @@ export type Tab_Data = {
   id: string;
   content: string[];
 };
+
+export type ProjectData = {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  tag: string[];
+  gitUrl: string;
+  previewUrl: string;
+};

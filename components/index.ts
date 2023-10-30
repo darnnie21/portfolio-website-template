@@ -3,6 +3,8 @@ import HeroSection from './HeroSection';
 import MenuOverlay from './MenuOverlay';
 import NavBar from './NavBar';
 import NavLink from './NavLink';
+import ProjectsSection from './ProjectsSection';
+import Button from './Button';
 
 export {
   AboutSection,
@@ -10,4 +12,6 @@ export {
   MenuOverlay,
   NavBar,
   NavLink,
+  ProjectsSection,
+  Button,
 };
