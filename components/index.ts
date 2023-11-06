@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import NavLink from './NavLink';
 import ProjectsSection from './ProjectsSection';
 import Button from './Button';
+import EmailSection from './EmailSection';
 
 export {
   AboutSection,
@@ -14,4 +15,5 @@ export {
   NavLink,
   ProjectsSection,
   Button,
+  EmailSection,
 };
